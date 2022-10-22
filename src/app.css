@@ -9,10 +9,16 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    overflow: scroll;
   }
 #app {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+@media screen and (max-width: 374px) {
+  .center {
+    overflow: scroll; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
