@@ -9,6 +9,7 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    width: 1170px;
     overflow: scroll;
   }
 #app {
