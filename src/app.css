@@ -19,6 +19,6 @@
 }
 @media screen and (max-width: 374px) {
   .center {
-    overflow: scroll; /* The width is 100%, when the viewport is 800px or smaller */
+    overflow: scroll;
   }
 }
